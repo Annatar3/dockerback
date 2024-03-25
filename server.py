@@ -11,7 +11,7 @@ def index():
 @app.route('/api/request', methods=['GET'])
 def send_request():
     # You can add any necessary logic here
-    return 'Your CI/CD Works'
+    return 'It Works!'
 
 if __name__ == '__main__':
     app.run(debug=True)
